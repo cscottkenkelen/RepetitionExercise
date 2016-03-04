@@ -1,31 +1,41 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Alike);
 
+
 body {
   margin: 0;
+  background-color: #2a3178;
 }
 
 header {
   margin: 0 auto;
   width: 1000px;
+  background-image:url(../images/flag.jpg);
+  font-family: "Alike", cursive;
 }
 
 header h1 {
   text-align: center;
   margin: 0;
   padding-top: .25em;
+  color: #b9b4b5;
+  font-family: "Alike", cursive;
 }
 
 header h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 1em;
+  color: #b9b4b5;
+  font-family: "Alike", cursive;
 }
 
 h3 {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: #9d0609;
+  font-family: "Alike", cursive;
 }
 
 p {
@@ -38,6 +48,9 @@ nav {
   width: 1000px;
   padding: 5px 0;
   text-align: center;
+  background-color: #bb010a;
+  border: 2px,solid,white;
+  font-family: "Alike", cursive;
 }
 
 nav a {
@@ -53,4 +66,10 @@ nav a {
   margin: 0 auto;
   width: 1000px;
   padding: 5px 15px;
+  background-color: #b9b4b5;
+  font-family: "Lato", serif;
+}
+
+ul {
+  list-style-image: url(../images/star.png);
 }
